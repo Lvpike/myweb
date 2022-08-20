@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)http://127.0.0.1:5500/myweb/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5.html -->
+<html lang="zh-cn">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./我的第一个网页_files/myweb.css" />
+  </head>
+  <body
+    style="
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    "
+  >
+    <touxiang
+      ><img
+        src="./我的第一个网页_files/logo.png"
+        alt="头像"
+        width="100px"
+        height="100px"
+    /></touxiang>
+    <zhuneirong
+      style="
+        max-width: 700px;
+        display: block;
+        padding: 30px;
+        min-height: 70vh;
+        width: 90%;
+        letter-spacing: 1px;
+        line-height: 1.7;
+      "
+      ><p>我喜欢哆啦A梦</p>
+      <p>
+        《哆啦A梦》（日语：ドラえもん；英语：Doraemon；旧译叮当 /
+        小叮当）是日本漫画家藤本弘（笔名藤子·F·不二雄）创作的漫画。
+        漫画叙述了一只来自22世纪的猫型机器人——哆啦A梦，受主人野比世修的托付，回到20世纪，借助从四维口袋里拿出来的各种未来道具，来帮助世修的高祖父——小学生野比大雄化解身边的种种困难问题，以及生活中和妈妈野比玉子、身边的小伙伴静香、胖虎、小夫发生的轻松幽默搞笑感人的故事。
+      </p>
+
+      <p>我是好孩子</p>
+      <p>你好啊</p></zhuneirong
+    >
+    <dibulan
+      style="
+        background-color: #f1ecec6b;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      "
+    >
+      <p>版权申明</p>
+      <p>网站备案号</p>
+      <p>友情链接</p>
+    </dibulan>
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
